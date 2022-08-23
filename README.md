@@ -5,11 +5,11 @@ export STRIPE_SECRET_API_KEY=*****************************
 ```
 
 ```sh
-echo REACT_APP_STRIPE_PUBLIC_API_KEY > .env
+echo REACT_APP_STRIPE_PUBLIC_API_KEY=************************ > .env
 ```
 
 ```sh
-go run main.go
+go run .
 ```
 
 ```sh
